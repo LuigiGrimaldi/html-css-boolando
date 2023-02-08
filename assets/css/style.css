@@ -28,14 +28,20 @@
 }
 
 .card:hover .img-card{
-    
+    display: inline-block;
 }
+
+.card:hover .img-card-b{
+    display: none;
+}
+
 
 .img-card{
     width: 200px;
     
 }
 .img-card-b{
+    float: left;
     width: 200px;
 }
 
