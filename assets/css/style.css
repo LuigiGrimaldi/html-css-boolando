@@ -3,3 +3,58 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container{
+    width: 70%;
+    max-width: 1170px;
+    margin: auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.d-flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.category{
+    width: 25%;
+}
+
+.entity{
+    width: 25%;
+}
+
+.card:hover .img-card{
+    
+}
+
+.img-card{
+    width: 200px;
+    
+}
+.img-card-b{
+    width: 200px;
+}
+
+.img-logo{
+    width: 130px;
+    text-align: center;
+}
+
+/* REGION DEBUG */
+
+ #site_header{
+    color: white;   
+    background-color: #ff6900
+}
+
+/* ENDREGION DEBUG */
+
+/* REGION UTILITY */
+    .mt-2{
+        margin-top: 2rem;
+    }
+/* ENDREGION UTILITY */
